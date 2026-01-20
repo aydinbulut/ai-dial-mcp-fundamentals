@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: MCP Client",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "agent.app",
+            "python": "${workspaceFolder}/agent/.venv/bin/python",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Python Debugger: MCP Server",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "mcp_server.server",
+            "python": "${workspaceFolder}/mcp_server/.venv/bin/python",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
