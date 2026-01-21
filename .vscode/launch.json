@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: MCP Client",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "agent.app",
+            "python": "${workspaceFolder}/agent/.venv/bin/python",
+            "envFile": "${workspaceFolder}/agent/.env"
+        },
+    ]
+}
